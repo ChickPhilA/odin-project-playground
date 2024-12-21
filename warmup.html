@@ -5,14 +5,30 @@
         <title> JUST A WARMUP TITLE </title>
     </head>
 
+    <!-- The style element for CSS attributes is always under the head HTML element. -->
     <style>
-        .beachlist,
-        .foodlist {
+        /* This is the use of a group selector, grouping together the beachlist and the foodlist classes*/
+        .beachlist, .foodlist {
             color: burlywood;
             font-family: 'Courier New', Courier, monospace;
         }
-    </style>    
 
+        /* This is an example of a chained selector below! */
+        .silly#chicken {
+            color: rgb(34, 24, 24);
+            text-align: center;
+        }
+
+
+        /* This is an example of a descendant selector below! */
+        .parent .child {
+            font-weight: 999;
+            border-style: double;
+            border-color: aliceblue;
+            color: orange;
+        }
+    </style>    
+    
     <!-- for CSS, when we incorporate CSS within the body element, it incorporates
     into the whole page -->
 
@@ -20,8 +36,6 @@
         text (headers, paragraphs, lists, etc.) color in this webpage that do NOT have a color property-->
 
     <!-- REMINDER: ALWAYS add a style ATTRIBUTE TO AN HTML ELEMENT! -->
-
-
 
     <!-- if you add CSS attributes to the body, it will cascade the whole page from top to bottom-->
     <body style ="background-color: grey; color: black; font-size: 19px";>
@@ -39,8 +53,21 @@
             <li> Laguna Beach </li>
             <li> Newport Beach </li>
             <li> Corona Del Mar </li>
-            <li style="color: red; font-family: Segoe UI";> Huntington Beach (it's ok) </li>
+            <li style="color: tomato; font-family: Segoe UI";> Huntington Beach (it's ok) </li>
         </ul>
         
+        <p class="silly"; id="chicken">  
+            how we doing today chat!?!??!?!?!?! i am demonstrating <em>chained</em> selectors!!!!!!!!
+        </p>
+
+
+        <div class="parent"> 
+
+            <p class="child"> hello! </p>
+
+        </div>
+
+
+
     </body>
 </html>
