@@ -5,6 +5,13 @@
         <title> JUST A WARMUP TITLE </title>
     </head>
 
+    <style>
+        .beachlist,
+        .foodlist {
+            color: burlywood;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>    
 
     <!-- for CSS, when we incorporate CSS within the body element, it incorporates
     into the whole page -->
@@ -14,11 +21,26 @@
 
     <!-- REMINDER: ALWAYS add a style ATTRIBUTE TO AN HTML ELEMENT! -->
 
-    <body style ="background-color: #bde9dd; color: black; font-size: 19px";>
+
+
+    <!-- if you add CSS attributes to the body, it will cascade the whole page from top to bottom-->
+    <body style ="background-color: grey; color: black; font-size: 19px";>
         <h1 style="color: goldenrod";> Welcome to Phil's website! </h1> <!-- example of inline CSS -->
         <p style="font-family: sans-serif;"> This is just a warmup to get me back in the groove of writing HTML webpages. </p>
-        <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project logo">
+        <!-- <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project logo"> -->
+        <!-- <a href="https://poki.com/en/g/the-impossible-quiz" target="_blank" rel="noopener noreferrer"> A Silly Game :P</a> -->
 
-        <a href="https://poki.com/en/g/the-impossible-quiz" target="_blank" rel="noopener noreferrer"> A Silly Game :P</a>
+        <ol class="foodlist"> A List of My Favorite Foods:
+            <li style="color: rgb(244, 174, 99)";> Pizza </li>
+            <li style="color: rgb(220, 192, 8)"> Tonkotsu Ramen </li>        
+        </ol>
+
+        <ul class="beachlist";> An <b>unordered</b> list of my favorite beaches in SoCal:
+            <li> Laguna Beach </li>
+            <li> Newport Beach </li>
+            <li> Corona Del Mar </li>
+            <li style="color: red; font-family: Segoe UI";> Huntington Beach (it's ok) </li>
+        </ul>
+        
     </body>
 </html>
