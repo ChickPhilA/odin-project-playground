@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.box-one {
+    background-color: #EB5757;
+    padding: 20px; /* makes our box bigger by 20 pixels */
+    border: 20px solid #9B51E0; /* 20 pixels around our padding */
+    margin: 100px; /* spacing around the border and adjacent boxes */
+
+    /* height and width adjust the box size WITHIN the box content,
+    being 'One' in this case 
+    
+    you can check within Chrome DevTools, where the inner-most blue box
+    would also determine the height and width of your boxes! */
+    height: 100px;
+    width: 100px;
+    /* box-sizing: border-box; makes height/width account for padding and border of element */
+}
+
+.box-two {
+    background-color: #2D9CDB;
+    padding: 20px;
+    height: 100px;  
+    width: 100px;
+    border: 20px solid #9B51E0;
+    margin: 80px;
+
+    box-sizing: border-box;
+}
+
