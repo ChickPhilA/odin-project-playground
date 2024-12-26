@@ -1,0 +1,31 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.box-one {
+    box-sizing: content-box;
+
+    /* When using a content-box, width and the height will only account for
+    the content box and padding will be added on top of it. AKA the padding will
+    not be a part of the total size; the total size adding padding will be 800px wide. */ 
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    padding: 50px;
+    border: 30px solid black;
+}
+
+.box-two {
+    box-sizing: border-box;
+
+    /* If using border-box, the height and width will become THE total size/dimenson of the box.
+    Padding will be account for the total size. USE Chrome DevTools TO LOOK AT THIS VISUALLY!!!  */
+
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    padding: 50px;
+    border: 30px solid black;
+}
