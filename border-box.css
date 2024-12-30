@@ -29,3 +29,48 @@
     padding: 50px;
     border: 30px solid black;
 }
+
+span {
+    margin: 100px;
+    width: 50px;
+    height: auto;
+    background-color: mediumspringgreen;
+    border-style: border-box;
+    display: inline;
+}
+
+.top {
+    margin: 0 0 30px 0;
+}
+
+.bottom {
+    margin: 40px 0 0 0;
+}
+
+.centering {
+    box-sizing: content-box;
+    background-color: blueviolet;
+    width: 890px;
+    margin: 0 auto; /* sets left and right margins to 0; this does horizontal centering */    
+}
+
+div {
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 20px solid salmon;
+    color: #000000;
+}
+
+.beginning {
+    background-color: green;
+}
+
+.middle {
+    background-color: orange;
+}
+
+.end {
+    background-color: red;
+}
