@@ -1,0 +1,12 @@
+.container {
+    background-color: aquamarine;
+    /* border: 10px solid black; */
+    display: flex;
+}
+
+.container div {
+    background-color: salmon;
+    border: 2px solid black;
+    margin: 15px;
+    flex: 1;
+}
