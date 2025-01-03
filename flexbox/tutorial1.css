@@ -1,12 +1,15 @@
 .container {
-    background-color: aquamarine;
     /* border: 10px solid black; */
+    border: 15px solid darkblue;
+    margin: 30px;
     display: flex;
 }
 
-.container div {
+.container button {
+    text-align: center;
     background-color: salmon;
     border: 2px solid black;
+    height: 100px; width: auto;
     margin: 15px;
     flex: 1;
 }
